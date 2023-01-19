@@ -1,5 +1,5 @@
 "use strict"
-//I named by button Id convert button, the addeventlistener enables an action to be performed when clicked upon//
+//I named my button Id "convert button", the addeventlistener enables an action to be performed when clicked upon//
 document.getElementById("ConvertButton").addEventListener("click", function () {
     //the input field id from my hmtl is called TempInput the following functions below will be how the input's output will be converted once the converton button has been clicked on//
     let fahrenheit = document.getElementById("TempInput").value;
