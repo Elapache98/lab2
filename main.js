@@ -2,7 +2,7 @@
 //I named my button Id "convert button", the addeventlistener enables an action to be performed when clicked upon//
 document.getElementById("ConvertButton").addEventListener("click", function () {
 
-    //the input field id from my hmtl is called TempInput the following functions below will be how the input's output will be converted once the converton button has been clicked on//
+    //the input field id from my hmtl is called TempInput the following functions below will be how the users input's output will be converted once the converton button has been clicked on//
     let fahrenheit = document.getElementById("TempInput").value;
 
     //based on the value of a user's input which will always be in fahrenheit we are able to use the value of the fahreinheit input to convert it to either celsius or kelvin//
